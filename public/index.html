@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Nitro &mdash; Website Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Exception<span class="text-primary">Handling</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">Topics</a>
+                  <ul class="dropdown">
+                    <li><a href="#Exception" class="nav-link">What is Exception?</a></li>
+                    <li><a href="#Errorvexception" class="nav-link">Error vs Exception</a></li>
+                    <li><a href="#Types" class="nav-link">Types of Exception</a></li>
+                    <li><a href="#Trycatch" class="nav-link">Try and Catch</a></li>
+                    <li><a href="#Trycatchfinally" class="nav-link">Java finally block</a></li>
+                    <li><a href="#MultipleCatchblocks" class="nav-link">Multiple Catch</a></li>
+                    <li><a href="#Javathrowandthrows" class="nav-link">Throw and throws</a></li>
+                  </ul>
+                  <li><a href="#pinfo" class="nav-link">Info</a></li>
+                </li>
+                
+              
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(images/background.jpg);" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-8 mt-lg-5 text-center">
+            <h1 class="text-uppercase" style="color: #007bff;" data-aos="fade-up">Exception Handling</h1>
+            <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Prepared by :-<br>Shubham Tongaria<br>Paranjot Singh</p>
+            <div data-aos="fade-up" data-aos-delay="100">
+              <a href="#Exception" class="btn smoothscroll btn-primary mr-2 mb-2">Get Started</a>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+      <a href="#Exception" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>  
+
+    <section id="Exception">
+    <div class="site-section cta-big-image">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-left" data-aos="fade">
+            <h2 class="section-title mb-3">What is an Exception ?</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src="images/bg.png" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <p>Exception is the event that disrupts the normal flow of the program. Or in other words a run-time error.<br>For Example:-</p>
+              
+            </div>
+            <div class="mb-4">
+              <ul class="list-unstyled info">
+                <li>ArrayIndexOutOfBoundsException. ...</li>
+                <li>ClassNotFoundException. ...</li>
+                <li>FileNotFoundException. ...</li>
+                <li>IOException. ...</li>
+                <li>InterruptedException etc.</li>
+              </ul>
+              <div data-aos="fade-up" data-aos-delay="100">
+                <a href="#Errorvexception" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>
+
+  <section id="Errorvexception">
+    <div class="row site-section">
+      <div class="container">
+      <div class="col-12 text-left" data-aos="fade">
+        <h2 style="padding-bottom:30px;" class="section-title">Errors Vs Exceptions</h2>
+      </div>
+
+    <div class="row">
+      <div class="col-6">
+      
+        <ul>
+          <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+        <li>
+        <h3 class="h4 mb-4">Impossible to recover from error.</h3>
+        </li>
+        <li>
+          <h3 class="h4 mb-4">Errors are of unchecked type.</h3>
+        </li>
+        <li>
+        <h3 class="h4 mb-4">Happen at run time.</h3>
+        </li>
+        <li>
+          <h3 class="h4 mb-4">Caused by the environment on which<br> application is running.</h3>
+        </li>
+        </ul>
+        </div>
+      <div class="col-6">
+        <ul>
+          <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+          <li>
+          <h3 class="h4 mb-4">Possible to recover from exception.</h3>
+        </li>
+        <li>
+          <h3 class="h4 mb-4">It can be checked or unchecked.</h3>
+        </li>
+        <li>
+        <h3 class="h4 mb-4">Can happen at compile time and run-time.</h3>
+        </li>
+        <li>
+          <h3 class="h4 mb-4">Caused by application.</h3>
+        </li>
+        </div>
+      </div>
+    </ul>
+  </div>
+  <div data-aos="fade-up" data-aos-delay="100">
+    <a href="#Types" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+     </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+<section id="Types" class="site-section cta-big-image">
+  <div class="container">
+    <div class="row mb-5 ">
+      <div class="col-12 text-left">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Types of exception</h2>
+      </div>
+      <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead">
+          <h4 data-aos="fade-up" data-aos-delay="">Checked</h4>
+            <ul class="lead">
+              <li>An expression that is checked by the compiler at the compilation time.</li>
+              <li>These exceptions cannot be ignored , programmer should handle these exceptions.</li>
+            </ul>
+            <h4 data-aos="fade-up" data-aos-delay="">Unchecked</h4>
+              <ul class="lead">
+                <li>An exception which occurs during the time of execution.</li>
+                <li>These are also called as run-time exceptions.</li>
+                <li>Run-time exceptions are ignored during compilation.</li>
+              </ul>
+            </p>
+            <div data-aos="fade-up" data-aos-delay="100">
+              <a href="#Trycatch" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+            </div>
+            </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="Trycatch" class="site-section cta-big-image">
+  <div class="container">
+    <div class="row mb-5 ">
+      <div class="col-12 text-left">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Try and catch</h2>
+      </div>
+      <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead">
+          Although the default exception handler provided by the Java run-time system is useful for debugging, you will usually want to handle an exception yourself.
+          To handle the run-time exceptions we use the try and catch method. 
+            <ul class="lead">
+              <li>The code that might generate an exception is placed in the try block.</li>
+              <li>Every try block should be immediately followed by the catch or finally block. When an exception occurs, it is caught by the catch block that immediately follows it.</li>
+              <li>Catch blocks cannot be used alone and must always be preceded by a try block.</li>
+            </ul>
+          The syntax for try...catch is:
+<pre><code>
+try {
+// code
+} catch (ExceptionType e) { 
+// catch block
+}                      
+</code></pre>
+Example 1: try...catch blocks
+<pre><code>
+class Execption {
+public static void main(String[] args) {
+
+try {
+  int divideByZero = 5 / 0;
+  System.out.println("Rest of code in try block");
+} catch (ArithmeticException e) {
+  System.out.println("ArithmeticException => " + e.getMessage());
+}
+
+}
+}  
+</code></pre>
+          Output
+          <pre><img class="img" src="images/ex1.png"></pre>
+          <p class="lead">In the example,</p>
+          <ul class="lead">
+            <li>We have divided a number by 0 inside the try block. This produces an ArithmeticException.</li>
+            <li>When the exception occurs, the program skips the rest of the code in the try block.</li>
+            <li>Here, we have created a catch block to handle ArithmeticException. Hence, the statements inside the catch block are executed.
+            If none of the statements in the try block generates an exception, the catch block is skipped.</li>
+            </ul>
+</p>
+<div data-aos="fade-up" data-aos-delay="100">
+  <a href="#Trycatchfinally" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+   
+<section id="Trycatchfinally" class="site-section cta-big-image">
+  <div class="container">
+    <div class="row mb-5 ">
+      <div class="col-12 text-left">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Java finally block</h2>
+      </div>
+      <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead">
+            <ul class="lead">
+              <li>For each try block, there can be only one finally block.</li>
+              <li>The finally block is optional. However, if defined, it is always executed (even if the exception doesn't occur).</li>
+              <li>If an exception occurs, it is executed after the try...catch block. If no exception occurs, it is executed after the try block.</li>
+            </ul>
+            The basic syntax of finally block is:
+<pre><code>
+try {
+  //code
+} catch (ExceptionType1 e1) { 
+  // catch block
+} catch (ExceptionType1 e2) {
+  // catch block
+} finally {
+  // finally block always executes
+}                      
+</code></pre>
+Example 2: finally block
+<pre><code>
+  class Exception {
+    public static void main(String[] args) {
+        try {
+            int divideByZero = 5 / 0;
+        } catch (ArithmeticException e) {
+            System.out.println("ArithmeticException => " + e.getMessage());
+        } finally {
+            System.out.println("Finally block is always executed");
+        }
+    }
+}
+</code></pre>
+          Output
+          <pre><img class="img" src="images/ex2.png"></pre>
+          <p class="lead">In this example, we have divided a number by 0. This throws an ArithmeticException which is caught by the catch block. The finally block always executes.
+            Having a finally block is considered a good practice. It is because it includes important cleanup code such as:
+            </p>
+          <ul class="lead">
+            <li>code that might have been accidentally skipped by return, continue or break statements.</li>
+            <li>closing a file or connection</li>
+            </ul>
+
+</p>
+<div data-aos="fade-up" data-aos-delay="100">
+  <a href="#MultipleCatchblocks" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="MultipleCatchblocks" class="site-section cta-big-image">
+  <div class="container">
+    <div class="row mb-5 ">
+      <div class="col-12 text-left">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Multiple Catch blocks</h2>
+      </div>
+      <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead">
+          In some cases, more than one exception could be raised by a single piece of code. To handle this type of situation multiple catch clauses can be specified.
+          The argument type of each catch block indicates the type of exception that can be handled by it. Multiple catch blocks allow us to handle each exception differently.
+          </p>         
+          Example 3: Multiple catch blocks
+<pre><code>
+class ListOfNumbers {
+  public int[] arrayOfNumbers = new int[10];
+
+  public void writeList() {
+
+    try {
+      arrayOfNumbers[10] = 11;
+    } catch (NumberFormatException e1) {
+      System.out.println("NumberFormatException => " + e1.getMessage());
+    } catch (IndexOutOfBoundsException e2) {
+      System.out.println("IndexOutOfBoundsException => " + e2.getMessage());
+    }
+
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    ListOfNumbers list = new ListOfNumbers();
+    list.writeList();
+  }
+}  
+</code></pre>
+          Output
+          <pre><img class="img" src="images/ex3.png"></pre>
+          <p class="lead">
+            We know that an array index always starts from 0. So, when we try to assign a value to index 10, an IndexOutOfBoundsException occurs because the array bounds for arrayOfNumbers is 0 to 9.
+When an exception occurs in the try block,
+          <ul class="lead">
+            <li>The exception is thrown to the first catch block. The first catch block does not handle an IndexOutOfBoundsException, so it is passed to the next catch block.</li>
+            <li>The second catch block in the above example is the appropriate exception handler because it handles an IndexOutOfBoundsException. Hence, it is executed.</li>
+            </ul>
+
+</p>
+<div data-aos="fade-up" data-aos-delay="100">
+  <a href="#Javathrowandthrows" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Javathrowandthrows" class="site-section cta-big-image">
+  <div class="container">
+    <div class="row mb-5 ">
+      <div class="col-12 text-left">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Java throw and throws</h2>
+      </div>
+      <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead">
+          So far we are only catching the exceptions thrown by the java run-time system. 
+          However , it is possible for program to explicitly throw exceptions, using throw keyword. 
+        </p>
+        Its syntax is:
+<pre><code>
+  throw throwableObject;                    
+</code></pre>
+        <p class="lead">
+          If a method is not capable of handling the exceptions, we can use throws keyword in the method declaration to declare the type of exceptions that might occur within it.
+        </p>
+        Its syntax is:
+<pre><code>
+  accessModifier returnType methodName() throws ExceptionType1, ExceptionType2 … {
+    // Body of method 
+  }            
+</code></pre>
+Example 4: Java throw keyword
+<pre><code>
+  class Exception3 {
+    public static void main(String[] args) {
+        try{
+            throw new ArithmeticException();
+        }
+        catch (ArithmeticException ex) {
+            System.out.println(ex + "\nDividing by zero!!!");
+        }
+    }
+}
+</code></pre>
+          Output
+          <pre><img class="img" src="images/ex4.png"></pre>
+          <p class="lead">In this example, we are explicitly throwing an ArithmeticException.
+            </p>
+            Example 5: Java throws Keyword
+<pre><code>
+  class Exception4 {
+    public static void exp(int arr[]){
+        arr[11] = 1366;
+        System.out.println(arr[11]);
+    }
+    public static void main(String args[]) {
+        int[] arr = new int[10];
+        try {
+            exp(arr);
+        }
+        catch (ArrayIndexOutOfBoundsException ex){
+            System.out.println(ex);
+        }
+}
+}
+</code></pre>
+          Output
+          <pre><img class="img" src="images/ex5.png"></pre>
+          <p class="lead">When we run this code, arr[11] does not exist, so its throws a ArrayIndexOutOfBoundsException. If a method does not handle exceptions , the type of exception that may occur should be sprcified in the throws block. The exp method specifies that a ArrayIndexOutOfBoundsException might occur. The main method calls this method and handles them specifically.             </p>
+
+</p>
+<div data-aos="fade-up" data-aos-delay="100">
+  <a href="#" class="btn smoothscroll btn-primary mr-2 mb-2">Next</a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
