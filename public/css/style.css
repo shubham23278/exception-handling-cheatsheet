@@ -4,7 +4,7 @@ html {
 
 body {
   line-height: 1.7;
-  color: gray;
+  color: black;
   font-weight: 400;
   font-size: 1rem; }
 
@@ -60,7 +60,7 @@ body:after {
     background: rgba(0, 0, 0, 0.2); }
 
 .btn {
-  font-size: 16px;
+  font-size: 12px;
   border-radius: 30px;
   padding: 10px 30px; }
   .btn:hover, .btn:active, .btn:focus {
@@ -200,7 +200,7 @@ body:after {
   width: 90px;
   height: 90px;
   display: inline-block;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   color: #fff !important;
   border-radius: 50%;
   position: relative;
@@ -329,7 +329,7 @@ body:after {
           position: absolute; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
             bottom: 100%;
-            left: 20%;
+            left: 13%;
             border: solid transparent;
             content: " ";
             height: 0;
