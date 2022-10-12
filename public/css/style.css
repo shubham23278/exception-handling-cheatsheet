@@ -6,7 +6,7 @@ body {
   line-height: 1.7;
   color: black;
   font-weight: 400;
-  font-size: 1rem; }
+  font-size: 2rem; }
 
 ::-moz-selection {
   background: #000;
@@ -19,7 +19,7 @@ body {
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .4s all ease; }
   a:hover {
     text-decoration: none; }
 
